@@ -1,0 +1,111 @@
+object Form1: TForm1
+  Left = 492
+  Height = 462
+  Top = 298
+  Width = 627
+  Caption = 'MDouble'
+  ClientHeight = 462
+  ClientWidth = 627
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object scroll_interval: TScrollBar
+    Left = 8
+    Height = 17
+    Top = 120
+    Width = 320
+    Max = 1000
+    Min = 10
+    PageSize = 0
+    Position = 10
+    TabOrder = 0
+    OnChange = scroll_intervalChange
+  end
+  object check_prop: TCheckBox
+    Left = 8
+    Height = 23
+    Top = 8
+    Width = 155
+    Caption = 'Пропорционально'
+    Font.Height = -16
+    OnChange = check_propChange
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Lab_InterVal: TStaticText
+    Left = 8
+    Height = 34
+    Top = 80
+    Width = 321
+    BorderStyle = sbsSingle
+    Caption = 'Задержка(ms)'
+    Font.Height = -16
+    OnClick = Lab_InterValClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object check_MouseView: TCheckBox
+    Left = 8
+    Height = 23
+    Top = 56
+    Width = 152
+    Caption = 'Показывать мышь'
+    Font.Height = -16
+    OnChange = check_MouseViewChange
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Shape1: TShape
+    Left = 183
+    Height = 23
+    Top = 56
+    Width = 145
+    OnChangeBounds = Shape1ChangeBounds
+    OnMouseDown = Shape1MouseDown
+  end
+  object Check_AA: TCheckBox
+    Left = 8
+    Height = 23
+    Top = 32
+    Width = 117
+    Caption = 'Сглаживание'
+    Checked = True
+    Font.Height = -16
+    OnChange = Check_AAChange
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 4
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    left = 239
+    top = 128
+  end
+  object ColorDialog1: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    left = 239
+    top = 192
+  end
+end

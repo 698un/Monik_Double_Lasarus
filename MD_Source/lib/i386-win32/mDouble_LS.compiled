@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\PFiles\Lasarus\fpc\3.0.4\bin\i386-win32\fpc.exe" Date="1331391085"/>
+  <Params Value=" -MObjFPC -Scghi -CX -O1 -g -gl -Xg -Xs -XX -WG -l -vewnhibq -FiD:\arbeit6\Monik_double_LS\lib\i386-win32 -FuD:\PFiles\Lasarus\lcl\units\i386-win32\win32 -FuD:\PFiles\Lasarus\lcl\units\i386-win32 -FuD:\PFiles\Lasarus\components\lazutils\lib\i386-win32 -FuD:\PFiles\Lasarus\packager\units\i386-win32 -FuD:\arbeit6\Monik_double_LS\ -FUD:\arbeit6\Monik_double_LS\lib\i386-win32\ -FED:\arbeit6\Monik_double_LS\ -oD:\arbeit6\Monik_double_LS\mDouble_LS.exe -dLCL -dLCLwin32 mDouble_LS.lpr"/>
+</CONFIG>
